@@ -1,7 +1,7 @@
 {
-  "name": "ddv-restful-api",
+  "name": "ddv-restful-api-mpvue",
   "version": "0.2.2",
-  "description": "ddv-restful-api",
+  "description": "ddv-restful-api-mpvue",
   "main": "./lib/api.js",
   "scripts": {
     "lint": "eslint --ext .js lib --ignore-pattern dist",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ddvjs/ddv-restful-api.git"
+    "url": "git+ssh://git@github.com/ddvjs/ddv-restful-api-mpvue.git"
   },
   "keywords": [
     "restfulapi",
@@ -20,7 +20,7 @@
   "author": "hua,huadi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ddvjs/ddv-restful-api/issues"
+    "url": "https://github.com/ddvjs/ddv-restful-api-mpvue/issues"
   },
   "jshintConfig": {
     "esversion": 6,
@@ -34,7 +34,7 @@
       "process"
     ]
   },
-  "homepage": "https://github.com/ddvjs/ddv-restful-api#readme",
+  "homepage": "https://github.com/ddvjs/ddv-restful-api-mpvue#readme",
   "devDependencies": {
     "babel-core": "~6.26.0",
     "babel-loader": "~7.1.2",
