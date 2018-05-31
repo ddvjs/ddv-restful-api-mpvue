@@ -6,7 +6,7 @@
 **npm:**
 
 ```shell
-$ npm install ddv-restful-api
+$ npm install ddv-restful-api-mpvue
 ```
 
 
