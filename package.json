@@ -1,6 +1,6 @@
 {
   "name": "ddv-restful-api-mpvue",
-  "version": "0.2.2",
+  "version": "0.1.0",
   "description": "ddv-restful-api-mpvue",
   "main": "./lib/api.js",
   "scripts": {
