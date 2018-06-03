@@ -1,8 +1,8 @@
 {
   "name": "ddv-restful-api-mpvue",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "ddv-restful-api-mpvue",
-  "main": "./lib/api.js",
+  "main": "./index.js",
   "scripts": {
     "lint": "eslint --ext .js lib --ignore-pattern dist",
     "dist": "npm run lint&&webpack",
@@ -52,9 +52,6 @@
     "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
-    "ddv-auth": "~0.0.7",
-    "crypto-js": "~3.1.9-1",
-    "es5-shim": "~4.5.10",
-    "es6-shim": "~0.35.3"
+    "ddv-restful-api": "~0.2.3"
   }
 }
