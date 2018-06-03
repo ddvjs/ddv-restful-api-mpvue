@@ -1,7 +1,7 @@
 {
-  "name": "ddv-restful-api-mpvue",
+  "name": "ddv-restful-api-wxmini",
   "version": "0.2.0",
-  "description": "ddv-restful-api-mpvue",
+  "description": "ddv-restful-api-wxmini",
   "main": "./index.js",
   "scripts": {
     "lint": "eslint --ext .js lib --ignore-pattern dist",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ddvjs/ddv-restful-api-mpvue.git"
+    "url": "git+ssh://git@github.com/ddvjs/ddv-restful-api-wxmini.git"
   },
   "keywords": [
     "restfulapi",
@@ -21,7 +21,7 @@
   "author": "hua,huadi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ddvjs/ddv-restful-api-mpvue/issues"
+    "url": "https://github.com/ddvjs/ddv-restful-api-wxmini/issues"
   },
   "jshintConfig": {
     "esversion": 6,
@@ -35,7 +35,7 @@
       "process"
     ]
   },
-  "homepage": "https://github.com/ddvjs/ddv-restful-api-mpvue#readme",
+  "homepage": "https://github.com/ddvjs/ddv-restful-api-wxmini#readme",
   "devDependencies": {
     "babel-core": "~6.26.0",
     "babel-eslint": "~8.2.1",
