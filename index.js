@@ -14,4 +14,4 @@ module.exports = ddvRestFulApi.getApi(function (api) {
     window.ddvRestFulApi = ddvRestFulApi
   }
 })
-
+module.exports['default'] = module.exports
