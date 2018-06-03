@@ -9,7 +9,7 @@ function resolve (dir) {
 module.exports = {
   devtool: false,
   entry: {
-    'ddvRestfulApiWxapp': resolve('lib/index.js')
+    'ddvRestfulApiWxapp': resolve('index.js')
   },
   output: {
     path: resolve('dist'),
