@@ -26,7 +26,7 @@
     "esversion": 6,
     "undef": true,
     "unused": true,
-    "node": true,
+    "node": false,
     "predef": [
       "module",
       "require",
