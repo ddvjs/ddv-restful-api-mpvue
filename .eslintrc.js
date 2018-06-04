@@ -5,8 +5,8 @@ module.exports = {
     sourceType: 'module'
   },
   env: {
-    // browser: true,
-    node: true
+    browser: true,
+    node: false
   },
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
   extends: 'standard',
@@ -24,6 +24,8 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0 // ,
     // do not allow console.logs etc...
     // 'no-console': 2
-  },
-  globals: {}
+  },,
+  globals: {
+    wx: true
+  }
 }

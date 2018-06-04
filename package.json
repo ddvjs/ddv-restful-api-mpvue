@@ -1,17 +1,18 @@
 {
-  "name": "ddv-restful-api-mpvue",
-  "version": "0.1.1",
-  "description": "ddv-restful-api-mpvue",
-  "main": "./lib/api.js",
+  "name": "ddv-restful-api-wxmini",
+  "version": "0.2.0",
+  "description": "ddv-restful-api-wxmini",
+  "main": "./index.js",
   "scripts": {
     "lint": "eslint --ext .js lib --ignore-pattern dist",
-    "dist": "npm run lint&&webpack",
+    "dist": "webpack --config ./build/webpack.dist.conf.js",
+    "dev": "webpack --watch --config ./build/webpack.dev.conf.js",
     "precommit": "npm run dist",
     "prepublish": "npm run dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ddvjs/ddv-restful-api-mpvue.git"
+    "url": "git+ssh://git@github.com/ddvjs/ddv-restful-api-wxmini.git"
   },
   "keywords": [
     "restfulapi",
@@ -20,13 +21,13 @@
   "author": "hua,huadi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ddvjs/ddv-restful-api-mpvue/issues"
+    "url": "https://github.com/ddvjs/ddv-restful-api-wxmini/issues"
   },
   "jshintConfig": {
     "esversion": 6,
     "undef": true,
     "unused": true,
-    "node": true,
+    "node": false,
     "predef": [
       "module",
       "require",
@@ -34,27 +35,26 @@
       "process"
     ]
   },
-  "homepage": "https://github.com/ddvjs/ddv-restful-api-mpvue#readme",
+  "homepage": "https://github.com/ddvjs/ddv-restful-api-wxmini#readme",
   "devDependencies": {
     "babel-core": "~6.26.0",
     "babel-eslint": "~8.2.1",
     "babel-loader": "~7.1.2",
     "babel-preset-es2015": "~6.24.1",
-    "eslint": "^4.19.1",
+    "eslint": "~4.19.1",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-html": "^4.0.3",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "webpack": "^4.10.2",
-    "webpack-cli": "^2.1.4",
-    "webpack-node-externals": "^1.5.4"
+    "eslint-loader": "~2.0.0",
+    "eslint-module-utils": "~2.2.0",
+    "eslint-plugin-html": "~4.0.3",
+    "eslint-plugin-import": "~2.12.0",
+    "eslint-plugin-node": "~6.0.1",
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-standard": "~3.1.0",
+    "progress-bar-webpack-plugin": "~1.10.0",
+    "webpack": "~3.10.0",
+    "webpack-merge": "^4.1.1"
   },
   "dependencies": {
-    "ddv-auth": "~0.0.7",
-    "crypto-js": "~3.1.9-1",
-    "es5-shim": "~4.5.10",
-    "es6-shim": "~0.35.3"
+    "ddv-restful-api": "~0.2.4"
   }
 }
