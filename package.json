@@ -1,6 +1,6 @@
 {
   "name": "ddv-restful-api-wxmini",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "ddv-restful-api-wxmini",
   "main": "./index.js",
   "scripts": {
@@ -55,6 +55,6 @@
     "webpack-merge": "^4.1.1"
   },
   "dependencies": {
-    "ddv-restful-api": "~0.2.4"
+    "ddv-restful-api": "~0.2.6"
   }
 }
