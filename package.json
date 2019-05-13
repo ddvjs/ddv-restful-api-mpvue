@@ -1,6 +1,6 @@
 {
   "name": "ddv-restful-api-wxmini",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "ddv-restful-api-wxmini",
   "main": "./index.js",
   "scripts": {
