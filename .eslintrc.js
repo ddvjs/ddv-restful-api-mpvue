@@ -24,7 +24,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0 // ,
     // do not allow console.logs etc...
     // 'no-console': 2
-  },,
+  },
   globals: {
     wx: true
   }
