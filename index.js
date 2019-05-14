@@ -1,10 +1,15 @@
 var ddvRestFulApi = require('./api.js')
 var onAccessKey = require('./lib/onAccessKey.js')
 var request = require('./lib/request.js')
+var upload = require('./lib/upload/index.js')
+
 module.exports = ddvRestFulApi.getApi(function (api) {
   api.setHeadersPrefix('x-ddv-')
   api.onAccessKey = onAccessKey
   api.request = request
+  api.uploadApi = function (data) {
+    return upload(data, api)
+  }
   // eslint-disable-next-line no-undef
   if (typeof define !== 'undefined' && typeof requirejs !== 'undefined') {
     // eslint-disable-next-line no-undef
