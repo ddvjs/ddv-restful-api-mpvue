@@ -56,6 +56,6 @@
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1",
-    "ddv-restful-api": "^0.4.5"
+    "ddv-restful-api": "^0.4.6"
   }
 }
