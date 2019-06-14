@@ -12,6 +12,7 @@ module.exports = ddvRestFulApi.getApi(function (api) {
     return upload(data, api)
   }
   api.util = Object.assign(api.util || {}, util)
+  api.session = session
   // eslint-disable-next-line no-undef
   if (typeof define !== 'undefined' && typeof requirejs !== 'undefined') {
     // eslint-disable-next-line no-undef
