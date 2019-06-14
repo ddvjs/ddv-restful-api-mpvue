@@ -3,6 +3,7 @@ var onAccessKey = require('./lib/onAccessKey.js')
 var request = require('./lib/request.js')
 var upload = require('./lib/upload/index.js')
 var util = require('ddv-restful-api/util')
+var session = require('./lib/session.js')
 
 module.exports = ddvRestFulApi.getApi(function (api) {
   api.setHeadersPrefix('x-ddv-')
